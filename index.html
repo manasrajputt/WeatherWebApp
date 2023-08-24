@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="card">
+            <div id="search">
+                <input type="text" placeholder="Search city...">
+                <button><img src="./search.png" alt=""></button>
+            </div>
+            <div id="error">
+                <p>Invalid City Name</p>
+            </div>
+            <div id="weather">
+                <img src="./rain.png" alt="" id="weather-icon">
+                <h3 id="city-weather">Clouds</h3>
+                <h1 id="temp">35°C</h1>
+                <h2 id="city">Bhopal</h2>
+                <div id="details">
+                    <div id="col">
+                        <img src="./humidity.png" alt="">
+                        <div>
+                            <p id="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div id="col">
+                        <img src="./wind.png">
+                        <div>
+                            <p id="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
